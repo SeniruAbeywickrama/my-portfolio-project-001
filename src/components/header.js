@@ -7,12 +7,15 @@ function Header() {
     return (
         <>
             {/* Top Header */}
-            <header className="bg-black text-white p-4 fixed top-0 left-0 right-0 shadow-md z-50">
-                <div className="container mx-auto flex justify-between items-center">
+            <header className="bg-black text-white p-4 fixed top-0 left-0 shadow-md shadow-indigo-200 z-50 border-b-2 border-indigo-500 w-full">
+                <div className="container flex justify-between items-center">
                     {/* Logo */}
+                    <h2 className="text-indigo-400 font-bold mt-2 text-xl md:text-2xl lg:text-3xl animate-fade-in delay-500 pl-5">
+                        Seniru
+                    </h2>
 
                     {/* Desktop / Tablet Navigation */}
-                    <nav className="hidden md:flex justify-center gap-6">
+                    <nav className="hidden md:flex gap-6">
                         <a href="#home" className="hover:underline">HOME</a>
                         <a href="#screens" className="hover:underline">ABOUT</a>
                         <a href="#screens" className="hover:underline">EXPERIENCE</a>
@@ -32,12 +35,7 @@ function Header() {
                         className="lg:hidden text-white"
                         onClick={() => setShowSideNav(true)}
                     >
-                        {/*<img*/}
-                        {/*    src="/Assets/Icons/Menu White.svg"*/}
-                        {/*    alt="Logo"*/}
-                        {/*    className="h-5 w-auto mr-3"*/}
-                        {/*/>*/}
-                        <TiThMenu size={20}/>
+                        <TiThMenu size={30}/>
 
                     </button>
                 </div>
@@ -53,7 +51,7 @@ function Header() {
                     />
 
                     {/* Side Drawer */}
-                    <div className="fixed top-0 right-0 bottom-0 w-80 bg-black text-white z-50 p-6 flex flex-col gap-6 shadow-lg">
+                    <div className="fixed top-0 right-0 bottom-0 w-80 bg-indigo-900 text-white z-50 p-6 flex flex-col gap-6 shadow-lg opacity-90 ">
                         <button
                             className="self-end text-white text-2xl"
                             onClick={() => setShowSideNav(false)}
