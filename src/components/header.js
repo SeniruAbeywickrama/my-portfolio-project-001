@@ -16,17 +16,12 @@ function Header() {
 
                     {/* Desktop / Tablet Navigation */}
                     <nav className="hidden md:flex gap-6">
-                        <a href="#home" className="hover:underline">HOME</a>
-                        <a href="#screens" className="hover:underline">ABOUT</a>
-                        <a href="#screens" className="hover:underline">EXPERIENCE</a>
-                        <a href="#schedule" className="hover:underline">EDUCATION</a>
-                        <a href="#schedule" className="hover:underline">PROJECTS</a>
-                        <a href="#movies" className="hover:underline">CONTACT</a>
-
-                        {/* LOCATION (hidden in md, visible in lg+) */}
-                        <a href="#location" className="hover:underline hidden lg:inline">
-                            LOCATION & CONTACT
-                        </a>
+                        <a href="#home" className="relative text-white hover:text-gray-300 transition-all duration-200 group px-3 py-2 rounded-lg hover:bg-white/20">HOME</a>
+                        <a href="#about" className="relative text-white hover:text-gray-300 transition-all duration-200 group px-3 py-2 rounded-lg hover:bg-white/20">ABOUT</a>
+                        <a href="#experience" className="relative text-white hover:text-gray-300 transition-all duration-200 group px-3 py-2 rounded-lg hover:bg-white/20">EXPERIENCE</a>
+                        <a href="#education" className="relative text-white hover:text-gray-300 transition-all duration-200 group px-3 py-2 rounded-lg hover:bg-white/20">EDUCATION</a>
+                        <a href="#projects" className="relative text-white hover:text-gray-300 transition-all duration-200 group px-3 py-2 rounded-lg hover:bg-white/20">PROJECTS</a>
+                        <a href="#contact" className="relative text-white hover:text-gray-300 transition-all duration-200 group px-3 py-2 rounded-lg hover:bg-white/20">CONTACT</a>
                     </nav>
 
                     {/* Gallery - Only visible in side nav */}
@@ -58,12 +53,12 @@ function Header() {
                         >
                             ✕
                         </button>
-                        <a href="#home" onClick={() => setShowSideNav(false)}>HOME</a>
-                        <a href="#screens" onClick={() => setShowSideNav(false)}>OUR SCREENS</a>
-                        <a href="#schedule" onClick={() => setShowSideNav(false)}>SCHEDULE</a>
-                        <a href="#movies" onClick={() => setShowSideNav(false)}>MOVIE LIBRARY</a>
-                        <a href="#gallery" onClick={() => setShowSideNav(false)}>GALLERY</a>
-                        <a href="#location" onClick={() => setShowSideNav(false)}>LOCATION & CONTACT</a>
+                        <a href="#home" className="relative text-white hover:text-gray-300 transition-all duration-200 group px-3 py-2 rounded-lg hover:bg-white/20" onClick={() => setShowSideNav(false)}>HOME</a>
+                        <a href="#about" className="relative text-white hover:text-gray-300 transition-all duration-200 group px-3 py-2 rounded-lg hover:bg-white/20" onClick={() => setShowSideNav(false)}>ABOUT</a>
+                        <a href="#experience" className="relative text-white hover:text-gray-300 transition-all duration-200 group px-3 py-2 rounded-lg hover:bg-white/20" onClick={() => setShowSideNav(false)}>EXPERIENCE</a>
+                        <a href="#education" className="relative text-white hover:text-gray-300 transition-all duration-200 group px-3 py-2 rounded-lg hover:bg-white/20" onClick={() => setShowSideNav(false)}>EDUCATION</a>
+                        <a href="#projects" className="relative text-white hover:text-gray-300 transition-all duration-200 group px-3 py-2 rounded-lg hover:bg-white/20" onClick={() => setShowSideNav(false)}>PROJECTS</a>
+                        <a href="#contact" className="relative text-white hover:text-gray-300 transition-all duration-200 group px-3 py-2 rounded-lg hover:bg-white/20" onClick={() => setShowSideNav(false)}>CONTACT</a>
                     </div>
                 </>
             )}

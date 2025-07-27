@@ -4,16 +4,16 @@ import { FaFileDownload } from "react-icons/fa";
 function Hero() {
 
     const techLogos = [
+        { src: "/Assets/Icons/java.png", alt: "JAVA" },
+        { src: "/Assets/Icons/javascript.png", alt: "JAVASCRIPT" },
+        { src: "/Assets/Icons/nextjs.png", alt: "NEXTJS" },
+        { src: "/Assets/Icons/nodejs.png", alt: "NODEJS" },
         { src: "/Assets/Icons/angularjs.png", alt: "ANGULAR" },
         { src: "/Assets/Icons/api.png", alt: "REST" },
         { src: "/Assets/Icons/aws.png", alt: "AWS" },
         { src: "/Assets/Icons/css.png", alt: "CSS" },
         { src: "/Assets/Icons/flutter.png", alt: "FLUTTER" },
         { src: "/Assets/Icons/github.png", alt: "GIT" },
-        { src: "/Assets/Icons/java.png", alt: "JAVA" },
-        { src: "/Assets/Icons/javascript.png", alt: "JAVASCRIPT" },
-        { src: "/Assets/Icons/nextjs.png", alt: "NEXTJS" },
-        { src: "/Assets/Icons/nodejs.png", alt: "NODEJS" },
         { src: "/Assets/Icons/php.png", alt: "PHP" },
         { src: "/Assets/Icons/redux.png", alt: "REDUX" },
     ];
