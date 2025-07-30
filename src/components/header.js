@@ -1,7 +1,7 @@
 import {useState} from "react";
 import { TiThMenu } from "react-icons/ti";
 
-function Header() {
+function Header({ onHomeClick }) {
     const [showSideNav, setShowSideNav] = useState(false);
 
     return (
@@ -15,7 +15,7 @@ function Header() {
                     </h2>
 
                     {/* Desktop / Tablet Navigation */}
-                    <nav className="hidden md:flex gap-6">
+                    <nav className="hidden lg:flex gap-6">
                         <a href="#home" className="relative text-white hover:text-gray-300 transition-all duration-200 group px-3 py-2 rounded-lg hover:bg-white/20">HOME</a>
                         <a href="#about" className="relative text-white hover:text-gray-300 transition-all duration-200 group px-3 py-2 rounded-lg hover:bg-white/20">ABOUT</a>
                         <a href="#experience" className="relative text-white hover:text-gray-300 transition-all duration-200 group px-3 py-2 rounded-lg hover:bg-white/20">EXPERIENCE</a>
@@ -53,7 +53,7 @@ function Header() {
                         >
                             ✕
                         </button>
-                        <a href="#home" className="relative text-white hover:text-gray-300 transition-all duration-200 group px-3 py-2 rounded-lg hover:bg-white/20" onClick={() => setShowSideNav(false)}>HOME</a>
+                        <a href="#home" className="relative text-white hover:text-gray-300 transition-all duration-200 group px-3 py-2 rounded-lg hover:bg-white/20" onClick={e => { setShowSideNav(false); onHomeClick && onHomeClick(e); }}>HOME</a>
                         <a href="#about" className="relative text-white hover:text-gray-300 transition-all duration-200 group px-3 py-2 rounded-lg hover:bg-white/20" onClick={() => setShowSideNav(false)}>ABOUT</a>
                         <a href="#experience" className="relative text-white hover:text-gray-300 transition-all duration-200 group px-3 py-2 rounded-lg hover:bg-white/20" onClick={() => setShowSideNav(false)}>EXPERIENCE</a>
                         <a href="#education" className="relative text-white hover:text-gray-300 transition-all duration-200 group px-3 py-2 rounded-lg hover:bg-white/20" onClick={() => setShowSideNav(false)}>EDUCATION</a>
