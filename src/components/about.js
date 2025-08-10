@@ -38,14 +38,14 @@ function About() {
                                         <div className="w-32 h-40 hover:h-56 rounded-xl overflow-hidden shadow-lg transform -rotate-6 hover:rotate-0 transition-all duration-500 hover:scale-110">
                                             <img
                                                 src="/Assets/Images/about-2.JPG"
-                                                alt="Photo 2"
+                                                alt="seniru abeywickrama 02"
                                                 className="w-full h-full object-cover"
                                             />
                                         </div>
                                         <div className="w-32 h-32 rounded-xl overflow-hidden shadow-lg transform rotate-6 hover:w-56 hover:h-36 hover:rotate-0 transition-all duration-500 hover:scale-110">
                                             <img
                                                 src="/Assets/Images/about-3.JPG"
-                                                alt="Photo 3"
+                                                alt="seniru abeywickrama 03"
                                                 className="w-full h-full object-cover"
                                             />
                                         </div>
