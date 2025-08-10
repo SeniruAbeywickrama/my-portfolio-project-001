@@ -127,7 +127,7 @@ function Contact() {
                                         ></textarea>
                                     </div>
                                     
-                                    <a href="https://689815f779361400081aa537--seniruabeywickrama.netlify.app/"
+                                    <a href="https://seniruabeywickrama.netlify.app/"
                                         type="submit"
                                         className="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-semibold py-4 px-8 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-purple-500/50 flex items-center justify-center gap-3 group"
                                     >
