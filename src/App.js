@@ -1,7 +1,6 @@
 import './App.css';
 import Header from "./components/header";
 import Hero from "./components/hero";
-import Footer from "./components/footer";
 import About from "./components/about";
 import { useState } from 'react';
 import Experience from "./components/experience";

@@ -1,5 +1,5 @@
-import { FaChevronLeft, FaChevronRight, FaEnvelope, FaPhone, FaMapMarkerAlt, FaGithub, FaLinkedin, FaMedium, FaPaperPlane, FaUser, FaComments } from "react-icons/fa";
-import { useRef, useState } from "react";
+import {FaEnvelope, FaPhone, FaMapMarkerAlt, FaGithub, FaLinkedin, FaMedium, FaPaperPlane, FaUser, FaComments } from "react-icons/fa";
+import {useState } from "react";
 
 function Contact() {
     const [formData, setFormData] = useState({
@@ -127,7 +127,7 @@ function Contact() {
                                         ></textarea>
                                     </div>
                                     
-                                    <a href="#"
+                                    <a href="https://689815f779361400081aa537--seniruabeywickrama.netlify.app/"
                                         type="submit"
                                         className="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-semibold py-4 px-8 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-purple-500/50 flex items-center justify-center gap-3 group"
                                     >
