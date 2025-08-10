@@ -5,10 +5,10 @@ function Projects() {
     const projects = [
         {
             name: "Depbot Ai - Early Depression Detection System",
-            description: "A weather application with location-based forecasts, interactive maps, and detailed weather analytics.",
+            description: "Early Depression Detection from Online Support forums & Social Networks Using Deep Learning Techniques",
             image: "/Assets/Images/Projects/sample-03.PNG",
             tech: ["Streamlit", "Python", "NLP", "Machine Learning","Numpy","HTML","CSS","TensorFlow"],
-            liveUrl: "https://project3.com",
+            liveUrl: "#",
             githubUrl: "https://github.com/user/project3"
         },
         {
@@ -16,7 +16,7 @@ function Projects() {
             description: "A full-stack e-commerce platform with user authentication, product management, shopping cart, and payment integration.",
             image: "/Assets/Images/Projects/sample-01.PNG",
             tech: ["React", "Tailwind CSS"],
-            liveUrl: "https://project1.com",
+            liveUrl: "#",
             githubUrl: "https://github.com/user/project1"
         },
         {
@@ -24,32 +24,32 @@ function Projects() {
             description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
             image: "/Assets/Images/Projects/sample-02.PNG",
             tech: ["React", "Tailwind CSS"],
-            liveUrl: "https://project2.com",
+            liveUrl: "#",
             githubUrl: "https://github.com/user/project2"
         },
         {
-            name: "Smart Adviser",
+            name: "Online Support System",
             description: "A modern portfolio website with smooth animations, responsive design, and interactive elements.",
             image: "/Assets/Images/Projects/sample-04.PNG",
-            tech: ["Laravel","HTML","CSS","JS","MYSQL","ChartJs"],
-            liveUrl: "https://project4.com",
-            githubUrl: "https://github.com/user/project4"
+            tech: ["Laravel","PHP","HTML","CSS","JS","MYSQL","ChartJs"],
+            liveUrl: "#",
+            githubUrl: "https://github.com/SeniruAbeywickrama/online-support-system"
         },
         {
             name: "Movie Theater Application",
             description: "A comprehensive social media analytics dashboard with data visualization and reporting features.",
             image: "/Assets/Images/Projects/sample-05.PNG",
-            tech: ["ReactJs", "Tailwind Css", "Node.Js"],
-            liveUrl: "https://project5.com",
-            githubUrl: "https://github.com/user/project5"
+            tech: ["ReactJs", "Tailwind Css", "Node.Js","Express","HTML"],
+            liveUrl: "#",
+            githubUrl: "https://github.com/SeniruAbeywickrama/movie-theatre"
         },
         {
             name: "Sample UI Generated with AI",
             description: "An AI-powered chat application with natural language processing and intelligent response generation.",
             image: "/Assets/Images/Projects/sample-06.PNG",
             tech: ["React", "HTML", "Cursor Ai", "V0.dev", "Tailwind CSS"],
-            liveUrl: "https://project6.com",
-            githubUrl: "https://github.com/user/project6"
+            liveUrl: "#",
+            githubUrl: "https://github.com/SeniruAbeywickrama/api-pro-frontend"
         }
     ];
 

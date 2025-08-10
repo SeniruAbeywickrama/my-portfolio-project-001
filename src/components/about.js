@@ -1,4 +1,4 @@
-import { FaFileDownload, FaPhone, FaEnvelope, FaMapMarkerAlt, FaUser } from "react-icons/fa";
+import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaUser } from "react-icons/fa";
 
 
 function About() {

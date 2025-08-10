@@ -1,4 +1,4 @@
-import { FaFileDownload, FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import {FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { useRef } from "react";
 
 
