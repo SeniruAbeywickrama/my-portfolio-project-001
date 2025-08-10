@@ -9,27 +9,12 @@ function Projects() {
             image: "/Assets/Images/Projects/sample-03.PNG",
             tech: ["Streamlit", "Python", "NLP", "Machine Learning","Numpy","HTML","CSS","TensorFlow"],
             liveUrl: "#",
-            githubUrl: "https://github.com/user/project3"
-        },
-        {
-            name: "University Website Sample Design",
-            description: "A full-stack e-commerce platform with user authentication, product management, shopping cart, and payment integration.",
-            image: "/Assets/Images/Projects/sample-01.PNG",
-            tech: ["React", "Tailwind CSS"],
-            liveUrl: "#",
-            githubUrl: "https://github.com/user/project1"
-        },
-        {
-            name: "Bouquet Store Sample Design",
-            description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-            image: "/Assets/Images/Projects/sample-02.PNG",
-            tech: ["React", "Tailwind CSS"],
-            liveUrl: "#",
-            githubUrl: "https://github.com/user/project2"
+            githubUrl: "#"
         },
         {
             name: "Online Support System",
-            description: "A modern portfolio website with smooth animations, responsive design, and interactive elements.",
+            description: "Online Support System is a web application which helps service providers and sellers to\n" +
+                "provide after-sales support for their customers.",
             image: "/Assets/Images/Projects/sample-04.PNG",
             tech: ["Laravel","PHP","HTML","CSS","JS","MYSQL","ChartJs"],
             liveUrl: "#",
@@ -37,7 +22,7 @@ function Projects() {
         },
         {
             name: "Movie Theater Application",
-            description: "A comprehensive social media analytics dashboard with data visualization and reporting features.",
+            description: "A demo application which implements the movie theater.",
             image: "/Assets/Images/Projects/sample-05.PNG",
             tech: ["ReactJs", "Tailwind Css", "Node.Js","Express","HTML"],
             liveUrl: "#",
@@ -45,11 +30,27 @@ function Projects() {
         },
         {
             name: "Sample UI Generated with AI",
-            description: "An AI-powered chat application with natural language processing and intelligent response generation.",
+            description: "An AI-Generated application build using the Cursor Ai and V0.dev.",
             image: "/Assets/Images/Projects/sample-06.PNG",
             tech: ["React", "HTML", "Cursor Ai", "V0.dev", "Tailwind CSS"],
             liveUrl: "#",
             githubUrl: "https://github.com/SeniruAbeywickrama/api-pro-frontend"
+        },
+        {
+            name: "University Website Sample Design",
+            description: "Demo UI React application to try out the animations.",
+            image: "/Assets/Images/Projects/sample-01.PNG",
+            tech: ["React", "Tailwind CSS"],
+            liveUrl: "#",
+            githubUrl: "#"
+        },
+        {
+            name: "Bouquet Store Sample Design",
+            description: "Demo UI React application to try out the animations.",
+            image: "/Assets/Images/Projects/sample-02.PNG",
+            tech: ["React", "Tailwind CSS"],
+            liveUrl: "#",
+            githubUrl: "#"
         }
     ];
 
