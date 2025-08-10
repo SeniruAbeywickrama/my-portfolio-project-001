@@ -10,9 +10,13 @@ function Header({ onHomeClick }) {
             <header className="bg-black text-white p-4 fixed top-0 left-0 shadow-md shadow-indigo-200 z-50 border-b-2 border-indigo-500 w-full">
                 <div className="container flex justify-between items-center">
                     {/* Logo */}
-                    <h2 className="text-indigo-400 font-bold mt-2 text-xl md:text-2xl lg:text-3xl animate-fade-in delay-500 pl-5">
-                        Seniru
-                    </h2>
+                    <div className="w-14 h-10 ml-8 rounded-xl overflow-hidden shadow-lg transform rotate-6 hover:w-15 hover:h-13 hover:rotate-0 transition-all duration-500 hover:scale-110">
+                        <img
+                            src="/Assets/Images/s-icon.png"
+                            alt="seniru abeywickrama 03"
+                            className="w-full h-full object-cover"
+                        />
+                    </div>
 
                     {/* Desktop / Tablet Navigation */}
                     <nav className="hidden lg:flex gap-6">

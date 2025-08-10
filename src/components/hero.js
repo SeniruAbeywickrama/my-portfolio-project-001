@@ -40,10 +40,14 @@ function Hero() {
                         </div>
 
                         <div className="flex flex-col sm:flex-row items-center lg:items-start justify-center gap-3 lg:justify-start">
-                            <button className="flex mt-5 gap-4 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 text-sm md:text-lg rounded-full transition-all duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 hover:shadow-lg hover:shadow-indigo-500/50 animate-bounce-subtle">
+                            <a 
+                                href="/Assets/Resume/Seniru Abeywickrama-SE-CV.pdf"
+                                download="Seniru_Abeywickrama_Resume.pdf"
+                                className="flex mt-5 gap-4 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 text-sm md:text-lg rounded-full transition-all duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 hover:shadow-lg hover:shadow-indigo-500/50 animate-bounce-subtle cursor-pointer"
+                            >
                                 <FaFileDownload size={25} className="animate-pulse" />
                                 Resume
-                            </button>
+                            </a>
                             <a href="#contact" className="flex mt-5 gap-4 bg-emerald-600 hover:bg-emerald-700 text-white px-6 py-3 text-sm md:text-lg  rounded-full transition-all duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 hover:shadow-lg hover:shadow-indigo-500/50 animate-bounce-subtle">
                                 Get in Touch
                             </a>
